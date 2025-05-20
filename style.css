@@ -8,6 +8,10 @@ body {
     flex-direction: column;
 }
 
+div {
+    border: solid red 1px;
+}
+
 .above-fold {
     background-color: #1F2937;
     display: flex;
@@ -19,9 +23,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    padding: 15px 0;
     width: 100%;
-    max-width: 1080px;
+    max-width: 1020px;
     gap: 25px;
 }
 
@@ -51,9 +55,10 @@ a {
 
 .hero-container {
     display: flex;
-    padding: 50px 0;
+    justify-content: space-between;
+    padding: 118px 0;
     width: 100%;
-    max-width: 1080px;
+    max-width: 1020px;
     gap: 30px;
 }
 
@@ -80,8 +85,10 @@ a {
 }
 
 .image-placeholder {
-    background-color: gray;
+    background-color: #6d747d;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
 }
 
