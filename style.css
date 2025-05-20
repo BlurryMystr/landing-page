@@ -8,16 +8,21 @@ body {
     flex-direction: column;
 }
 
-a {
-    text-decoration: none;
+.above-fold {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
     display: flex;
-    background-color: #1F2937; 
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    width: 100%;
+    max-width: 1080px;
+    gap: 25px;
 }
 
 .logo {
@@ -40,17 +45,20 @@ a {
     gap: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero-container {
     display: flex;
-    background-color: #1F2937;
-    padding: 50px 0 150px;
-    gap: 25px
+    padding: 50px 0;
+    width: 100%;
+    max-width: 1080px;
+    gap: 30px;
 }
 
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
+    width: 45%;
 }
 
 .hero-main {
@@ -61,6 +69,7 @@ a {
 
 .sign-up {
     background-color: #3882F6;
+    border: none;
     color: white;
     width: fit-content;
     padding: 8px 30px;
@@ -72,10 +81,8 @@ a {
 
 .image-placeholder {
     background-color: gray;
-    flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
 }
 
 .image-placeholder p {
