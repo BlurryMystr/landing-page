@@ -3,9 +3,7 @@ body {
     margin: 0;
 }
 
-div {
-    border: solid red 1px;
-}
+
 
 .body-container {
     display: flex;
@@ -116,33 +114,30 @@ a {
     padding: 50px 0 50px;
 }
 
-.info-img-row, .info-subtext-row {
+.info-img-row {
     display: flex;
-    text-align: center;
-    align-items: center;
     gap: 75px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .info-img {
     width: 150px;
     height: 150px;
     overflow: hidden;
-}
-
-.info-img img {
-    width: 200px;
-    margin: -60px;
+    border: solid #3882f6 4px;
+    border-radius: 10px;
 }
 
 .info-subtext {
-    color:rgb(100, 100, 100);
+    color:rgb(75, 75, 75);
     font-weight: 400;   
-    margin-top: 4px;
+    margin-top: 6px;
     max-width: 150px;
 }
 
@@ -153,6 +148,7 @@ a {
     font-weight: 350;
     color: #1F2937;
     margin: 125px 0 80px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -163,7 +159,7 @@ a {
     width: 800px;
 }
 
-.quote-container .quote-attrib {
+.quote-attrib {
     font-size: 23px;
     font-weight: bold;
     font-style: normal;
